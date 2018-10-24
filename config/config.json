@@ -5,8 +5,8 @@
     "hello-world-application-customizer": {
       "components": [
         {
-          "entrypoint": "./lib/extensions/helloWorld/TopMenu.js",
-          "manifest": "./src/extensions/helloWorld/TopMenu.manifest.json"
+          "entrypoint": "./lib/extensions/SPFxTopMenu/TopMenu.js",
+          "manifest": "./src/extensions/SPFxTopMenu/TopMenu.manifest.json"
         }
       ]
     },

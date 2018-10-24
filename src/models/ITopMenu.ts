@@ -11,7 +11,10 @@ export interface IStructure{
     PathOfTerm:string;
 }
 
-export interface IChildren{
+export interface ITermSetMenuItem{
+    id:string;
     name:string;
     path:string;
+    parentid:string;
+    // children: IChildren;
 }

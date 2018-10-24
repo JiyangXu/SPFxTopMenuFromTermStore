@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://evocate.sharepoint.com/sites/Sandbox/Test1/SitePages/T.aspx",
+      "customActions": {
+        "02cd24c1-0879-498d-841d-c92b025fdaa9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TermSetId": "4e5093cc-0ddf-4c28-b84b-2cc829c7a42e",
+            "DepSetId": "649b7713-7381-4fd9-a85d-946fda3e2efd",
+            "Top": "This is Top message"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://evocate.sharepoint.com/sites/Sandbox/Test1/SitePages/T.aspx",
+      "customActions": {
+        "02cd24c1-0879-498d-841d-c92b025fdaa9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TermSetId": "4e5093cc-0ddf-4c28-b84b-2cc829c7a42e",
+            "DepSetId": "649b7713-7381-4fd9-a85d-946fda3e2efd",
+            "Top": "This is Top message"
+          }
+        }
+      }
+    },
+    "topMenu": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "5a9e658b-d77f-4d4d-b3e6-c02f931c50a0": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

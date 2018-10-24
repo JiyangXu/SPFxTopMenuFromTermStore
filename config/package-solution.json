@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "M3.TheHub.SPFxTopMenu.App",
+    "id": "e89634cd-0da9-403f-9252-3f802daa6496",
+    "version": "1.0.0.1",
+    "skipFeatureDeployment": true,
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "SPFx Top Menu Using Term Store - Two levels Deep",
+        "description": "This adds the top menu from the term store node 'top navigation'. The menu is only two levels deep",
+        "id": "00840785-4b6b-450e-ba55-98955d571921",
+        "version": "1.0.0.1",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/app-extension.sppkg"
+  }
+}

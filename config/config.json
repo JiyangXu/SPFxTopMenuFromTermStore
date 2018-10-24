@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloWorld/TopMenu.js",
+          "manifest": "./src/extensions/helloWorld/TopMenu.manifest.json"
+        }
+      ]
+    },
+    "top-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/topMenu/TopMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/topMenu/TopMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldApplicationCustomizerStrings": "lib/extensions/helloWorld/loc/{locale}.js",
+    "TopMenuApplicationCustomizerStrings": "lib/extensions/topMenu/loc/{locale}.js"
+  }
+}
